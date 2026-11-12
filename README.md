@@ -40,4 +40,3 @@ Desenvolvido com **Claude Code** utilizando a metodologia TDD (*Test-Driven Deve
 * **Maturidade de Código:** +400 commits rastreáveis.
 * **Rastreabilidade de Decisões:** Toda alteração estrutural notável é registrada em um *Decision Log*, elevando a versão da especificação e mantendo o histórico de engenharia documentado.
 
-*Autor: Bruno Neves.*
