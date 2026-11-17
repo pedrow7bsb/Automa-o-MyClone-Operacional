@@ -1,4 +1,4 @@
-# 🤖 MyClone: Assistente Operacional e Orquestrador de Tarefas
+#  MyClone: Assistente Operacional e Orquestrador de Tarefas
 
 **Resumo Executivo:** Orquestração de um assistente virtual autônomo (clone operacional) desenvolvido para centralizar a captura de demandas, priorizar tarefas e executar ações automaticamente. O sistema atua como um "segundo cérebro", integrando processamento de linguagem natural, gestão de calendário e roteamento de execução entre agentes de IA e humanos.
 
@@ -6,10 +6,10 @@
 
 ---
 
-## 🚩 O Desafio Operacional (A Dor)
+##  O Desafio Operacional (A Dor)
 A gestão de demandas diárias sofre de fragmentação crônica: pendências chegam espalhadas por WhatsApp, e-mail, anotações em papel ou ficam apenas na cabeça. O resultado é um acúmulo onde nada é efetivamente perdido, mas também nada avança com agilidade, gerando sobrecarga cognitiva e ineficiência na execução.
 
-## 💡 Arquitetura e Fluxograma da Solução
+##  Arquitetura e Fluxograma da Solução
 
 O sistema foi desenhado como um funil automatizado de produtividade, indo da captura da mensagem à execução final, utilizando um repositório *Markdown* como banco de dados canônico.
 
@@ -22,7 +22,7 @@ O sistema foi desenhado como um funil automatizado de produtividade, indo da cap
 4. **Priorização Dinâmica:** Geração automatizada de uma página diária baseada na Matriz GUT (Gravidade × Urgência × Tendência), que se atualiza em tempo real a cada item concluído.
 5. **Execução e Commit:** A fila delegada ao agente de IA roda de forma autônoma. Ao finalizar, o agente apenas adiciona o resultado ao final da nota e atualiza os metadados. Um *hook* de segurança garante que a IA nunca sobrescreva dados já existentes. 
 
-## 🛠️ Infraestrutura e Governança de Dados
+##  Infraestrutura e Governança de Dados
 
 A arquitetura foge do padrão de bancos de dados tradicionais, apostando na portabilidade e segurança:
 
@@ -33,7 +33,7 @@ A arquitetura foge do padrão de bancos de dados tradicionais, apostando na port
 
 ---
 
-## 📈 Metodologia e Rastreabilidade
+##  Metodologia e Rastreabilidade
 Desenvolvido com **Claude Code** utilizando a metodologia TDD (*Test-Driven Development*). A evolução do sistema é guiada por especificações (*specs*) rigorosas antes da codificação.
 
 * **Confiabilidade:** +1.300 testes automatizados validados a cada alteração.
